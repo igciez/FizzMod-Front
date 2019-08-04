@@ -20,7 +20,6 @@ let btnCancelar;
 let flagInterna;
 let flagExterna = true;
 
-f = document.createDocumentFragment();
 a = document.querySelector("a");
 script = document.querySelector("script");
 div = document.createElement("div");
