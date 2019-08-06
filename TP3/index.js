@@ -29,7 +29,6 @@ let main= document.querySelector("main");
 a.forEach((aux)=>{
     aux.addEventListener("click", (e)=>{
         e.preventDefault();
-        console.log(aux.href);
         fetch(aux.href)
         .then(respuesta=>respuesta.text())
         .then(respuesta=>main.innerHTML=respuesta)
