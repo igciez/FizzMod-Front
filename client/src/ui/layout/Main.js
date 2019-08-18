@@ -25,6 +25,4 @@ export default class Main extends Component {
 }
 
 
-//children={(props)=><Home {...props}
-
 
